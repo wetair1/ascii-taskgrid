@@ -1,0 +1,19 @@
+[project]
+name = "ascii-taskgrid"
+version = "0.1.0"
+description = "ASCII curses terminal task board"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "wetair1" }]
+keywords = ["ascii", "curses", "terminal", "tui", "tasks"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console :: Curses",
+  "Operating System :: POSIX :: Linux",
+]
+dependencies = []
+
+[tool.ascii-taskgrid]
+entrypoint = "main.py"
+stdlib_only = true
